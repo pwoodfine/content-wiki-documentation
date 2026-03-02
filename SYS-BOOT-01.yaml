@@ -10,14 +10,14 @@ abstract: |
 details:
   bootloader_requirements:
     x86_64_multiboot2: |
-      Standard QEMU kernel loading does not support 64-bit seL4 binaries. 
+      Standard kernel loading does not support 64-bit seL4 binaries. 
       Resolution: A dual-payload ISO is required using GRUB Multiboot2. The process 
       must target the seL4 kernel as the primary payload and the compiled initialiser 
       as the secondary payload.
   hardware_compatibility:
     intel_penryn_p8600_node1: |
       Issue: The Intel Core 2 Duo P8600 (2008) lacks the 'FSGSBASE' instruction set.
-      Resolution: Software emulation via QEMU CPU flags is required for testing 
+      Resolution: Software emulation via CPU flags is required for testing 
       modern kernels on this specific hardware.
     arm_memory_allocation: |
       Issue: Memory relocation constraints during ARM simulation.
