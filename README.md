@@ -30,4 +30,4 @@ This repository serves as the definitive index for all architectural decisions, 
 | **MOON-01** | [Debt-to-Sovereignty Roadmap](./MOON-01.yaml) | Tier 3 (Moonshot) | Roadmap to replace legacy vendor dependencies with Rust alternatives. |
 
 ---
-*Verified by PointSav Operations. Governed by the Sovereign Data Foundation.*
+*© 2026 PointSav Digital Systems AG.*
