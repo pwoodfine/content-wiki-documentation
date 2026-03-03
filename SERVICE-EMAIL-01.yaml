@@ -2,8 +2,16 @@ topic_id: SERVICE-EMAIL-01
 title: service-email: Sovereign Email Bridge
 tier: Tier-5-Service
 category: Service-Logic
-tags: [maildir, microsoft-graph, exchange, on-prem]
+tags: [maildir, microsoft-graph, exchange, on-prem, totebox-orchestration]
 abstract: |
-  Bridge ensuring 100% on-prem ownership of Microsoft 365 Exchange data 
-  by minting cloud data into local Maildir archives.
+  An independent email bridge designed to ensure 100% on-prem ownership of Microsoft 365 Exchange data using the Maildir format.
+details:
+  human_narrative: |
+    While organizations often rely on Microsoft 365 for email transport, they risk losing sovereignty 
+    over their historical data. This service acts as a secure bridge, pulling data from the cloud and 
+    archiving it permanently on physical, owned hardware.
+  architecture:
+    independent_bridge: Completes authentication with Microsoft Graph API.
+    on_prem_vault: Backs up all data to local hardware (~/Maildir/.M365_Archive/).
+    transmission_engine: Sends outgoing mail directly through authenticated MSFT stack.
 links: [TOTEBOX-01, SYS-SEC-01]

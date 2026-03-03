@@ -2,8 +2,18 @@ topic_id: SERVICE-CONTENT-01
 title: service-content: Asset & Knowledge Synthesis
 tier: Tier-5-Service
 category: Service-Logic
-tags: [synthesis, legal, memo, comm, translate]
+tags: [synthesis, legal, memo, comm, translate, totebox-orchestration]
 abstract: |
-  Specialized engine for the structural synthesis of digital assets 
-  featuring LEGAL, MEMO, COMM, and TRANSLATE internal engines.
+  A specialized engine for the structural synthesis of institutional knowledge. 
+  It utilizes a Capability-Based Manager to ensure strict data isolation.
+details:
+  human_narrative: |
+    This service acts as the automated drafting core for the organization. Instead of manually 
+    compiling scattered information, service-content securely ingests raw data and processes it 
+    through distinct engines to produce unified, institutional-grade documentation.
+  engines:
+    ENGINE_LEGAL: Manages governing rules.
+    ENGINE_MEMO: Synthesizes source documents into refined memos.
+    ENGINE_COMM: Directs ingestion of external signals.
+    ENGINE_TRANSLATE: Manages cross-language parity and Spanish Glossary logic.
 links: [TOTEBOX-01, SYS-GLOS-01]
