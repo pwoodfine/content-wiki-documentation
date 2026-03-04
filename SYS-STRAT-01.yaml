@@ -4,7 +4,7 @@ tier: Tier-6-System
 category: System-Architecture
 tags: [digital-first, soc3, darp, trustworthy-system, machine-readable, 3-track]
 abstract: |
-  PointSav Digital Systems AG engineers Operating Systems. The architecture operates as a Two-Sided System, enabling secure business administration for human operators and providing native, mathematically verified machine-readability for digital agents and compliance auditors.
+  PointSav Digital Systems™ engineers Operating Systems. The architecture operates as a Two-Sided System, enabling secure business administration for human operators and providing native, mathematically verified machine-readability for digital agents and compliance auditors.
 details:
   human_narrative: |
     We bypass the vulnerabilities of rented web applications by providing a sovereign Operating System. This ecosystem is structured across three synchronized tracks: Infrastructure (Track 1), Totebox Orchestration (Track 2), and the Sovereign Desktop (Track 3). For human operators, this provides immutable record-keeping and cyberphysical control. Simultaneously, by structuring data as deterministic files at the microkernel level, the entire corporate entity becomes natively machine-readable. This allows authorized AI and compliance auditors to interface directly with the mathematical truth of the company.

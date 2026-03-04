@@ -1,5 +1,5 @@
 # Technical Library & Knowledge Centre | Biblioteca Técnica
-**PointSav Digital Systems AG | Institutional Index**
+**PointSav Digital Systems™ | Institutional Index**
 
 > **OPERATIONAL POSTURE [MARCH 2026]:**
 > **Phase:** Production Iteration 1
@@ -31,4 +31,4 @@ This repository serves as the definitive index for all architectural decisions a
 | **OS-WORKPLACE-01** | [Deterministic Files](./OS-WORKPLACE-01.yaml) | Tier 4 | The "Files over Databases" strategy for native machine-readability. |
 
 ---
-*© 2026 PointSav Digital Systems AG.*
+*© 2026 PointSav Digital Systems™.*
