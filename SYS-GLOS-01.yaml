@@ -4,29 +4,16 @@ tier: Tier-6-System
 category: Foundation
 tags: [nomenclature, taxonomy, cloud-blind, f-keys, orchestration, compliance]
 abstract: |
-  The definitive source of truth for all PointSav immutable terms. 
-  Establishes the Taxonomy and standardizes the language for external and regulatory review.
+  The definitive source of truth for all PointSav immutable terms. Establish the taxonomy and standardize language for external and regulatory review.
 details:
   core_architecture:
-    PointSav_Digital_Systems: "The proprietary Trade Name of the digital infrastructure subsidiary."
+    PointSav_Digital_Systems: "The proprietary Trade Name of the digital infrastructure entity."
     PointSav_Private_Network: "A secure routing layer connecting buildings and data vaults off the public internet."
     Totebox_Orchestration: "The complete environment for sovereign data storage."
-    Totebox_Archive: "An isolated container for a specific data entity. Configured as Personnel, Corporate, or Property archives."
-    PointSav_Workplace_OS: "A secure desktop environment architected to output deterministic, machine-readable files."
-    PointSav_Command_Centre: "The secure administrative gateway that aggregates information from Totebox Archives."
-  engineering_security:
-    Capability_Based_Manager: "A custom manager written in no_std Rust to ensure Full-Stack Sovereignty."
-    Isolated_Protection_Domains: "Environments running specialized workloads as Guest OSs above the microkernel."
-    Machine_Based_Authorization: "Permission granted strictly via hardware pairing, completely eliminating reliance on usernames/passwords."
-    Root_Task: "Proprietary no_std Rust application (< 5k LOC) operating at the microkernel level."
-    The_Diode_Standard: "A universal one-way command flow from startpoints to endpoints, blocking upstream vulnerabilities by design."
+    Totebox_Archive: "An isolated container for a specific data entity (Personnel, Corporate, or Property)."
+    PointSav_Workplace_OS: "A secure desktop environment architected to output deterministic files."
   corporate_entities:
     Woodfine_Capital_Projects_Inc: "The Sponsor / Promoter."
     Woodfine_Management_Corp: "The Administrator / First Customer."
     Direct_Hold_Solutions: "The specialized joint ventures, limited companies, holding companies, and flow-through vehicles."
-    Investment_Units: "The specific financial units within the Direct-Hold Solutions."
-  jurisdictional_abstractions:
-    Corporate_Tax_Identifier: "Universal term for a business registration number (e.g., EIN, BN)."
-    National_Identity_Number: "Universal term for an individual's government identifier (e.g., SSN, SIN)."
-    National_Land_Registry_Code: "Universal term for real property identification."
 links: [SYS-ARCH-01, OPS-WORK-01, PROTOCOL_MEMO]

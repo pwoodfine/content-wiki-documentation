@@ -4,13 +4,12 @@ tier: Tier-6-System
 category: Foundation
 tags: [architecture, sel4, cloud-blind, isolation]
 abstract: |
-  Defines the absolute separation between the network routing infrastructure 
-  and the software payloads. This guarantees hardware independence and data sovereignty.
+  Define the absolute separation between the network routing infrastructure and the software payloads. Guarantee hardware independence and data sovereignty.
 details:
   layer_a_infrastructure:
     components: os-infrastructure, os-network-admin, PointSav Private Network (PPN).
-    role: "The network routing and virtualization foundation. It securely moves data between physical locations (e.g., AWS, GCP, On-Premise) but has zero visibility into the data itself."
+    mandate: "Securely route data between physical locations (e.g., AWS, GCP, On-Premise). Maintain zero visibility into the payload contents."
   layer_b_payload:
     components: os-console, os-interface, os-totebox, app-console-keys, app-interface-command.
-    role: "The 'Cloud-Blind' operating environments. These components execute business logic and store data. They cannot access the network routing layer and are unaware of their physical hosting location."
+    mandate: "Execute business logic and store data within 'Cloud-Blind' environments. Prohibit direct access to the network routing layer. Remain entirely agnostic to the physical hosting location."
 links: [SYS-GLOS-01, PPN-01]
