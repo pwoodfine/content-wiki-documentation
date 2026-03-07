@@ -4,12 +4,10 @@ tier: Tier-4-OS
 category: System-Architecture
 tags: [edge-node, userspace, micro-vault, os-mediakit, sel4-simulation, linux]
 abstract: |
-  Establish the Autonomous Edge Node pattern. Simulate the strict hardware partitioning of the seL4 microkernel on commercial cloud environments by utilizing completely isolated Linux userspaces. Ensure public presentation layers and intelligence engines are inherently portable and cryptographically segregated from internal corporate vaults.
+  Establish the Autonomous Edge Node pattern. Simulate the strict hardware partitioning of the seL4 microkernel on generic cloud environments by utilizing completely isolated Linux userspaces.
 details:
   the_userspace_simulation:
-    mandate: "On shared Virtual Machines (e.g., cluster-totebox-corporate-1), distinct entities (e.g., Woodfine, PointSav) must operate within separate, dedicated Linux service accounts (userspaces). No application may execute as the root user."
+    mandate: "On shared Virtual Machines, distinct entities must operate within separate, dedicated Linux service accounts. This simulates hardware-level partitioning on generic cloud substrates."
   the_micro_vault_pattern:
-    mandate: "Edge nodes do not query central databases over internal network bridges. Each edge userspace must contain a self-sufficient 'Micro-Vault' (/assets/) containing its own offline dependencies (e.g., GeoLite2.mmdb) and local flat-file ledgers."
-  the_diode_standard_egress:
-    mandate: "Edge nodes possess strictly write-only (append) access to overarching corporate archives. They can deposit telemetry ledgers and daily executive synthesis reports into isolated /outbox/ directories, but are mathematically prohibited from reading the vault contents."
-links: [SYS-ADR-06, SYS-ADR-12, OS-MEDIAKIT-01, app-mediakit-telemetry]
+    mandate: "Edge nodes do not query central databases. Each edge userspace contains a self-sufficient 'Micro-Vault' (/assets/) for offline dependencies."
+links: [SYS-ADR-15, OS-MEDIAKIT-01]
