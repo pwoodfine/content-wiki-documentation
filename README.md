@@ -1,18 +1,11 @@
-# Technical Library & Knowledge Centre | Biblioteca Técnica
-**PointSav Digital Systems™ | Institutional Index**
+# content-wiki-documentation
+### *Encyclopedic Knowledge & Architecture*
 
-> **OPERATIONAL POSTURE [MARCH 2026]:**
-> **Phase:** Production Iteration 1
-> **Focus:** Sovereign Substrate Integration & DARP Mirroring
+**Status: Active Governance** | **Taxonomy: Tier-5-Service**
 
-## Sovereign Knowledge Matrix
+## 📜 Operational Mandate
+This repository houses the immutable architectural and corporate directives.
 
-### Track 1: Infrastructure & Foundation
-| Document ID | Title | Tier | Description |
-| :--- | :--- | :--- | :--- |
-| **SYS-STRAT-01** | [The Digital First Paradigm](./SYS-STRAT-01.yaml) | Tier 6 | 3-Track architecture and Sovereign Substrates. |
-| **SYS-ADR-14** | [Autonomous Edge Nodes](./SYS-ADR-14.yaml) | Tier 4 | Userspace isolation and seL4 simulation. |
-| **SYS-ADR-15** | [The Command Sequence](./SYS-ADR-15.yaml) | Tier 6 | Manual DARP Mirroring vs. Automated Sync. |
-
----
-*© 2026 PointSav Digital Systems™.*
+> **Directory Nomenclature Ledger**
+> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
+> * `TOPIC-*`: Encyclopedic system architecture concepts and operational records.
