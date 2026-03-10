@@ -1,11 +1,29 @@
-# content-wiki-documentation
-### *Encyclopedic Knowledge & Architecture*
+<div align="center">
 
-**Status: Active Governance** | **Taxonomy: Tier-5-Service**
+# System Architecture Wiki | Arquitectura del Sistema
+### *The engineering index for sovereign infrastructure and mathematical locks.*
 
-## 📜 Operational Mandate
-This repository houses the immutable architectural and corporate directives.
+</div>
 
-> **Directory Nomenclature Ledger**
-> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
-> * `TOPIC-*`: Encyclopedic system architecture concepts and operational records.
+<br/>
+
+> [!WARNING]
+> **SOVEREIGN FRAMEWORK DECLARATION**
+> This repository acts as a public architectural blueprint. It contains zero executable binaries or proprietary client data.
+
+| Architecture Tier | Component Role | Governance Anchor |
+| :--- | :--- | :--- |
+| 🟢 Active | System Hub | Sovereign Disclosure Standard |
+
+## 📖 Master Topic Index
+This repository defines the PointSav OS framework. It provides the architectural proofs for enterprise digital sovereignty.
+
+* [➔ TOPIC-SEL4-FOUNDATION](TOPIC-SEL4-FOUNDATION.md)
+* [➔ TOPIC-3-LAYER-STACK](TOPIC-3-LAYER-STACK.md)
+* [➔ TOPIC-TOTEBOX-ORCHESTRATION](TOPIC-TOTEBOX-ORCHESTRATION.md)
+* [➔ TOPIC-MACHINE-BASED-AUTH](TOPIC-MACHINE-BASED-AUTH.md)
+* [➔ TOPIC-MOONSHOT-INITIATIVES](TOPIC-MOONSHOT-INITIATIVES.md)
+
+---
+*© 2026 PointSav Digital Systems™.*
+*Public Architectural Blueprint. Governed by the Sovereign Data Protocol.*
