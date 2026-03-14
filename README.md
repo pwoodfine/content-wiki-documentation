@@ -46,6 +46,11 @@ Below is the active ledger of documented topologies. Select a topic to view its 
 * **The Concept:** Technical Debt Eradication.
 * **The Physics:** A physical ledger and engineering pipeline designed to quarantine foreign third-party architecture and systematically replace it with native PointSav components.
 
+### 📬 7. Headless Execution Engine (service-message-courier)
+**[➔ READ FULL TOPIC: Message Courier Service](./TOPIC-Message-Courier.md)**
+* **The Concept:** Automated Messaging Protocol.
+* **The Physics:** A generic, headless execution engine utilizing an Adapter Pattern to bridge internal databases with external portals, isolating proprietary operational data from the public Git ledger.
+
 ---
 
 ## III. USAGE & LEGAL PARAMETERS
