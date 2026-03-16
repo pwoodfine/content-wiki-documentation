@@ -1,60 +1,60 @@
+<div align="center">
+
 # 📚 CONTENT WIKI: THE KNOWLEDGE GRAPH
-**Curator:** PointSav Digital Systems™ & Woodfine Management Corp.
-**Objective:** Institutional Technical Documentation & Education
+### INSTITUTIONAL TECHNICAL DOCUMENTATION & EDUCATION
+*The physics and mathematics of sovereign cloud architecture.*
+
+<br/>
+
+**[ ➔ System Engineering Monorepo ](https://github.com/pointsav/pointsav-monorepo)**<br/>
+**[ ➔ Linguistic & Design System ](https://github.com/pointsav/pointsav-design-system)**<br/>
+**[ ➔ Customer Fleet Deployment ](https://github.com/woodfine/woodfine-fleet-deployment)**
+
+</div>
+
+<br/>
+
+> [!WARNING]
+> **THE KNOWLEDGE GRAPH MANDATE**
+> This repository transcends standard software documentation. We reject the modern trend of obfuscated SaaS documentation. We teach the underlying physics of the technology by utilizing real-world, live-fire case studies.
 
 ---
 
-## I. THE KNOWLEDGE GRAPH MANDATE
-This repository transcends standard software documentation. It is engineered as a comprehensive Knowledge Graph—a central directory designed to teach advanced technological concepts, cloud architecture, and cryptographic principles.
+## I. THE EDUCATIONAL MODEL
 
-We reject the modern trend of obfuscated SaaS documentation. Instead, we teach the underlying physics of the technology by utilizing real-world, live-fire case studies:
-* **The Engineering Blueprint (The How):** Provided by **PointSav Digital Systems™** (The Vendor).
+This directory serves as the definitive engineering and architectural encyclopedia for the PointSav ecosystem. It bridges the gap between raw code and operational execution:
+
+* **The Engineering Blueprint (The How):** Provided by **PointSav Digital Systems™** (The System Vendor).
 * **The Operational Proof (The Why):** Demonstrated by **Woodfine Management Corp.** (The Customer).
 
 ---
 
 ## II. THE KNOWLEDGE DASHBOARD
-Below is the active ledger of documented topologies. Select a topic to view its complete mathematical and architectural breakdown.
 
-### 📡 1. Sovereign Telemetry (DS-ADR-06)
-**[➔ READ FULL TOPIC: Sovereign Telemetry](./topic-sovereign-telemetry.md)**
-* **The Concept:** Zero-Cookie Architecture.
-* **The Physics:** A self-hosted, air-gapped diode capturing routing metrics via asynchronous payloads and secure Rust engines, bypassing analytics monopolies.
+Below is the active ledger of documented topologies, architectural decisions, and conceptual scaffolds. Select a topic to view its mathematical and architectural breakdown.
 
-### 🗄️ 2. The Sovereign Data Archive (DS-ADR-02)
-**[➔ READ FULL TOPIC: The Sovereign Data Archive](./topic-os-totebox.md)**
-* **The Concept:** Files over Databases. 
-* **The Physics:** An isolated, secure container holding ledgers as verifiable flat-files, ensuring fiduciary data remains mathematically sealed from cyber threats.
+### 📡 Track 1: Active Topologies & Services
+| Topic Document | Conceptual Focus | Status |
+| :--- | :--- | :--- |
+| `TOPIC-06-Sovereign-Telemetry.md` | Sovereign Telemetry (Zero-Cookie Architecture) | 🟢 Active |
+| `TOPIC-Message-Courier.md` | Headless Execution Engine (Adapter Pattern) | 🟢 Active |
+| `TOPIC-Service-People.md` | Sovereign Personnel Ledger (Files over Databases) | 🟢 Active |
 
-### 🔐 3. Cryptographic Ledgers (DS-ADR-12)
-**[➔ READ FULL TOPIC: Cryptographic Ledgers](./topic-cryptographic-ledgers.md)**
-* **The Concept:** Immutable State Records.
-* **The Physics:** The physical separation of binary assets from their YAML metadata, utilizing SHA-256 hashing to make flat files mathematically immutable.
+### 📐 Track 2: Architecture Decision Records (ADRs)
+| Topic Document | Structural Mandate | Status |
+| :--- | :--- | :--- |
+| `SYS-ADR-06.yaml` | Immutable Ledgers vs. Self-Healing Intelligence | 🟢 Verified |
+| `SYS-ADR-07.yaml` | Bifurcated Ingestion (Deterministic vs. Probabilistic) | 🟢 Verified |
+| `SYS-ADR-08.yaml` | Systemd Quarantine & Process Supervision Debt | 🟢 Verified |
 
-### 🛡️ 4. Capability-Based Security (SYS-SEC-01)
-**[➔ READ FULL TOPIC: Capability-Based Security](./topic-capability-based-security.md)**
-* **The Concept:** The Mathematical Lock.
-* **The Physics:** A microkernel abstraction replacing traditional operating systems. It enforces a strict one-way command flow to isolate Edge Delivery networks from secure vaults.
-
-### 🧠 5. Sovereign AI Routing (SYS-AI-01)
-**[➔ READ FULL TOPIC: Sovereign AI Routing](./topic-service-slm.md)**
-* **The Concept:** Linguistic Air-Lock.
-* **The Physics:** A physical checkpoint utilizing a local Small Language Model (SLM) to sanitize and anonymize corporate data before external hyperscaler processing.
-
-### 🚀 6. Sovereign Replacement Initiative (SYS-MOONSHOT-01)
-**[➔ READ FULL TOPIC: Sovereign Replacement Initiative](./topic-sovereign-replacement-initiative.md)**
-* **The Concept:** Technical Debt Eradication.
-* **The Physics:** A physical ledger and engineering pipeline designed to quarantine foreign third-party architecture and systematically replace it with native PointSav components.
-
-### 📬 7. Headless Execution Engine (service-message-courier)
-**[➔ READ FULL TOPIC: Message Courier Service](./TOPIC-Message-Courier.md)**
-* **The Concept:** Automated Messaging Protocol.
-* **The Physics:** A generic, headless execution engine utilizing an Adapter Pattern to bridge internal databases with external portals, isolating proprietary operational data from the public Git ledger.
-
-### 📇 8. Sovereign Personnel Ledger (service-people)
-**[➔ READ FULL TOPIC: Sovereign Personnel Ledger](./TOPIC-Service-People.md)**
-* **The Concept:** Deterministic Flat-File Ledger.
-* **The Physics:** A JSON-backed state machine replacing centralized database clusters. It mathematically seals contact data while providing localized query and update operations to execution adapters.
+### 🚧 Track 3: Architectural Scaffolds (Incubation)
+| Conceptual Target | System Function | Status |
+| :--- | :--- | :--- |
+| The Sovereign Data Archive | Replacing cloud databases with verifiable flat-files | 🟡 Engineering |
+| Cryptographic Ledgers | SHA-256 metadata locking for flat files | 🟡 Engineering |
+| Capability-Based Security | Microkernel abstractions and one-way network flows | 🟡 Engineering |
+| Sovereign AI Routing | Local linguistic air-locks (SLMs) for data sanitization | 🟡 Engineering |
+| Sovereign Replacement | Eradicating foreign third-party technical debt | 🟡 Engineering |
 
 ---
 
