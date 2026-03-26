@@ -1,0 +1,15 @@
+topic_id: SYS-ADR-10
+title: ADR: The Fiduciary Interface (Zero-Form Architecture)
+tier: Tier-6-System
+category: System-Architecture
+tags: [adr, zero-form, fiduciary, human-in-the-loop, command-ledger]
+abstract: |
+  Decision record establishing the shift from traditional CRUD (Create, Read, Update, Delete) SaaS dashboards to a "Zero-Form" Fiduciary Triage interface.
+details:
+  the_legacy_failure:
+    rationale: "Legacy hyperscaler interfaces force humans to act as data-entry clerks, filling out forms and managing permissions. This introduces fatal friction for SMBs and executives."
+  the_fiduciary_pivot:
+    execution_rule: "The Sovereign UI (os-console) must contain zero data-entry forms. The underlying AI (service-slm) performs the extraction and structuring. The interface strictly presents a binary choice to the Human-in-the-Loop: 'Is this extracted fact legally correct? Yes/No.'"
+  machine_based_authorization:
+    execution_rule: "The interface must utilize Pairing as Permissions. Usernames and passwords are mathematically prohibited."
+links: [SYS-ADR-07, OS-WORKPLACE-01]
