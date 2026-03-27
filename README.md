@@ -27,19 +27,6 @@ This repository serves as the definitive, audited index for all architectural de
 ## 🗺️ The Sovereign Knowledge Matrix
 Our system logic establishes absolute boundaries between physical metal and software payloads, ensuring structural sovereignty.
 
-```mermaid
-graph TD;
-    A[SYS-STRAT-01: Digital First] --> B[Track 1: Infrastructure];
-    A --> C[Track 2: Totebox Orchestration];
-    A --> D[Track 3: Sovereign Desktop];
-    
-    B --> E(SYS-CORE-01: Capability Manager);
-    C --> F(SERVICE-CONTENT-01: Synthesis);
-    D --> G(OS-WORKPLACE-01: Deterministic Files);
-    
-    style A fill:#111827,stroke:#869FB9,stroke-width:2px,color:#fff
-```
-
 ### Track 1: Infrastructure & Foundation
 | Document ID | Title | Description |
 | :--- | :--- | :--- |
