@@ -1,11 +1,11 @@
 topic_id: TOPIC-SYSTEM-SLM
-title: The Invisible AI (Semantic Command Router)
+title: The Semantic Router (Human-in-the-Loop SLM)
 tier: Tier-6-System
 category: System-Architecture
-tags: [slm, semantic-routing, agentic, invisible-ai]
+tags: [slm, semantic-routing, hitl, fiduciary-gateway]
 abstract: |
-  Defines the integration of Small Language Models (SLMs) as silent, semantic parsers rather than conversational chatbots.
+  Defines the integration of Small Language Models (SLMs) as strictly bounded translators rather than autonomous executors, enforcing mandatory Human-in-the-Loop (HITL) authorization for all network actions.
 details:
-  the_chat_ui_rejection: "Conversational AI interfaces introduce dangerous friction and ambiguity into network administration. Fiduciary networks require imperative execution, not dialogue."
-  semantic_translation: "system-slm utilizes quantized 270M-parameter models running directly in Rust to parse human intent (e.g., 'isolate the edge node') and compile it instantly into strict binary UDP payloads."
+  the_autonomous_liability: "Permitting language models to execute network infrastructure commands based on probabilistic parsing introduces unacceptable operational risk and violates fiduciary control mandates."
+  the_fiduciary_gateway: "system-slm functions exclusively as a compiler. It reads human intent and outputs a deterministic JSON proposal. The underlying mesh architecture will reject any command that has not received subsequent, explicit human authorization via the delivery terminal."
 links: [SYS-ADR-10, TOPIC-SYSTEM-UDP]
