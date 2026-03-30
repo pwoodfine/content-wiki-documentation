@@ -31,22 +31,20 @@ The engineering logic establishing the physical mesh and absolute network bounda
 
 ---
 
-## 3. TRACK 2: TOTEBOX ORCHESTRATION
-The operational logic governing data isolation and institutional synthesis.
+## 3. TRACK 2: DATA LEDGERS & GATEWAYS
+The operational logic governing data isolation and institutional reporting.
 
 | Document ID | Title | Description |
 | :--- | :--- | :--- |
-| **TOPIC-3D-ASSET** | [The 3D Cryptographic Token](./topic-3d-asset-tokens.yaml) | Replaces analog files with living, multi-dimensional data containers. |
-| **SERVICE-CONTENT-01**| [Asset & Knowledge Synthesis](./service-content-01.yaml) | Legal, Memo, and Comm processing engines. |
-| **SERVICE-PEOPLE-01** | [Personnel Distillation](./service-people-01.yaml) | Harvester and Surveyor logic for identity mapping. |
-| **SERVICE-EMAIL-01** | [Sovereign Ingress Diode](./service-email-01.yaml) | The Analog Shatter protocol and event-driven ingestion. |
-| **SERVICE-EGRESS-01**| [The Sovereign Release Valve](./service-egress-01.yaml) | Asymmetric storage and physical Flow-Through data extraction. |
-| **TOPIC-SLM-01** | [The Semantic ALU](./topic-system-slm.yaml) | Defines the deterministic, hardware-constrained cognitive firewall. |
+| **SERVICE-EMAIL-01** | [The Communications Ledger](./service-email-01.yaml) | The ingress protocol and permanent event log. |
+| **SERVICE-PEOPLE-01** | [The Identity Ledger](./service-people-01.yaml) | Identity resolution and cryptographic mapping. |
+| **SERVICE-CONTENT-01**| [The Taxonomy Ledger](./service-content-01.yaml) | Immutable corporate architecture and reporting logic. |
+| **TOPIC-SLM-01** | [The API Gateway](./topic-system-slm.yaml) | The secure port bridging external computing models to the archive. |
 
 ---
 
-## 4. TRACK 3: INDEPENDENT DESKTOP
-The human interface standards for the Digital First enterprise.
+## 4. TRACK 3: OPERATOR TERMINALS
+The human interface standards for the enterprise.
 
 | Document ID | Title | Description |
 | :--- | :--- | :--- |

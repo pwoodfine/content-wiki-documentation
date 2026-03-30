@@ -1,12 +1,10 @@
-topic_id: topic-system-slm
-title: The Semantic ALU (Deterministic Co-Processor)
+topic_id: TOPIC-SYSTEM-SLM
+title: The API Gateway
 tier: Tier-6-System
 category: System-Architecture
-tags: [slm, semantic-alu, deterministic, hitl, fiduciary-gateway]
+tags: [api-gateway, access-control, boundary, llm-bridge]
 abstract: |
-  Defines the integration of Small Language Models (SLMs) as strictly bounded Semantic Arithmetic Logic Units (ALUs). They function as deterministic, mathematically constrained cognitive firewalls, not generative agents.
+  Defines the strict isolation boundary bridging external computational models (e.g., Large Language Models) to the internal Totebox Archives.
 details:
-  the_autonomous_liability: "Permitting language models to execute network infrastructure commands based on probabilistic parsing introduces unacceptable operational risk and violates fiduciary control mandates."
-  the_semantic_alu: "system-slm functions exclusively as a compiler. It reads human intent and outputs a deterministic JSON proposal. It is bound by physical Rust Enum Traps that mathematically reject hallucinations, defaulting to safe states (e.g., UNKNOWN) to guarantee structural integrity."
-  the_fiduciary_gateway: "The underlying mesh architecture will reject any command that has not received subsequent, explicit human authorization via the delivery terminal."
-links: [sys-adr-10, topic-system-udp]
+  the_doorman_protocol: "The internal archives are fundamentally non-generative. External systems seeking context must interface through the API Gateway, which compiles and serves explicit, verified ledgers rather than exposing raw data paths."
+links: [SYS-ADR-10, SERVICE-CONTENT-01]

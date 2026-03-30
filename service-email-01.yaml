@@ -1,15 +1,11 @@
-topic_id: service-email-01
-title: service-email: Sovereign Ingress Diode & Analog Shatter
+topic_id: SERVICE-EMAIL-01
+title: service-email: The Communications Ledger
 tier: Tier-5-Service
 category: Service-Logic
-tags: [maildir, microsoft-graph, analog-shatter, leapfrog-2030, totebox-orchestration]
+tags: [ledger, database, ingress, events]
 abstract: |
-  An Event-Driven, Append-Only Sovereign Pipeline designed to extract assets from Microsoft 365. It executes the Analog Shatter protocol to convert legacy analog liabilities into pure machine-readable skeletons.
+  The database for corporate events and external communications. It executes the ingress protocol, stripping proprietary wrappers, and permanently logging raw, machine-readable structures.
 details:
-  operational_mandate: |
-    The service must connect to info@woodfine.co and sweep distinct Microsoft folders using strict memory-safe micro-batching to protect 1GB RAM edge environments.
-  idempotent_fetch: "Downloads the raw .eml and immediately issues a Hard Delete to the MSFT Cloud, stripping the data from foreign servers."
-  immutable_storage: "Writes the intact .eml to local cold storage at /service-email/maildir/cur/ as a Base Asset."
-  analog_shatter: "Violently strips proprietary Microsoft wrappers (Base64/HTML/Attachments) and invisible tracking pixels, converting analog payloads into pure Machine-Readable Primitives."
-  cognitive_splinter: "Routes the shattered core text to service-slm and metadata to service-people for self-healing graph reconciliation."
-links: [topic-os-totebox, service-people-01, service-content-01]
+  functional_role: |
+    Connects to external infrastructure (e.g., Microsoft 365) to extract inbound assets without retaining remote state. Vaults the data locally to guarantee 100% on-premise ownership.
+links: [TOTEBOX-01, SYS-SEC-01]
