@@ -1,13 +1,22 @@
-# TOPIC-STORAGE-01: Bare-Metal WORM Custody & State-Tethered Spillover
+# TOPIC-STORAGE-01: Permanent Vaults & Backup Storage
 
-## 1. INSTITUTIONAL OBJECTIVE
-Define the physical layer isolation required to enforce Write-Once, Read-Many (WORM) compliance for all direct-hold solutions managed by Woodfine Management Corp., ensuring statutory auditability independent of software policies.
+**[ EN ] English**
 
-## 2. HARDWARE-ENFORCED WORM LEDGERS
-Unlike legacy enterprise storage that relies on administrative permissions, the os-totebox architecture isolates the storage drive from the general operating system. Write-limitations are executed directly at the hardware layer. This ensures that once a ledger entry is committed, it is physically impossible to overwrite or modify it, guaranteeing the integrity of the command ledger for financial auditors.
+**1. The Goal:** We need to guarantee to auditors and investors that our direct-hold solutions and records can never be secretly changed or deleted.
 
-## 3. ALGORITHMIC AUDIT PROOFS
-To comply with legal erasure mandates without breaking WORM continuity, the system employs algorithmic sealing. If a record must be removed, its decryption key is destroyed. The physical data remains permanently intact to satisfy the WORM append rule, but the data itself is reduced to mathematically inaccessible noise, generating a clean audit proof for regulators.
+**2. Hardware Locks:** Standard computers let administrators delete anything. Our system puts the hard drive in a locked vault. The hardware itself only allows information to be *added*, never overwritten. This creates a perfect, unalterable history.
 
-## 4. STATE-TETHERED COLD STORAGE
-When active storage reaches capacity, the system executes a state-split rather than a simple file copy. Overflow data is migrated to local physical cold storage and mathematically tethered to the live node. Should the physical drive be relocated or compromised, the data remains inert. It is only accessible when actively paired with the live microkernel state, ensuring absolute custody over archival records.
+**3. Safe Deletions:** If the law requires us to remove a document, we don't break the vault. Instead, we digitally shred the "key" to that document. The file remains on the drive to prove it existed, but it becomes permanently unreadable.
+
+**4. Secure Backups:** When the main drive gets full, we don't just copy files to a standard USB stick. The backup drive is "paired" with the main system. If someone steals the backup drive, the files are useless and locked until connected back to the main office.
+
+---
+**[ ES ] Español**
+
+**1. El Objetivo:** Necesitamos garantizar a auditores e inversores que nuestras soluciones de tenencia directa y registros nunca puedan ser cambiados o eliminados en secreto.
+
+**2. Bloqueos Físicos:** Las computadoras estándar permiten a los administradores eliminar cualquier cosa. Nuestro sistema coloca el disco duro en una bóveda cerrada. El hardware solo permite que se *agregue* información, nunca que se sobrescriba. Esto crea un historial perfecto e inalterable.
+
+**3. Eliminaciones Seguras:** Si la ley nos obliga a eliminar un documento, no rompemos la bóveda. En cambio, trituramos digitalmente la "llave" de ese documento. El archivo permanece en el disco para demostrar que existió, pero se vuelve permanentemente ilegible.
+
+**4. Respaldos Seguros:** Cuando el disco principal se llena, no solo copiamos archivos a una memoria USB estándar. El disco de respaldo está "emparejado" con el sistema principal. Si alguien roba el disco de respaldo, los archivos son inútiles y permanecen bloqueados hasta que se conecten nuevamente a la oficina principal.
