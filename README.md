@@ -4,6 +4,10 @@
 ### INSTITUTIONAL TECHNICAL DOCUMENTATION & EDUCATION
 *The physics and mathematics of sovereign cloud architecture.*
 
+[![Status: Incubation](https://img.shields.io/badge/Status-Incubation-yellow.svg)](#)
+[![Role: Knowledge Graph](https://img.shields.io/badge/Role-Knowledge_Graph-blue.svg)](#)
+[![Framework: Sovereign OS](https://img.shields.io/badge/Framework-Sovereign_OS-purple.svg)](#)
+
 <br/>
 
 **[ ➔ System Engineering Monorepo ](https://github.com/pointsav/pointsav-monorepo)**<br/>
@@ -20,9 +24,11 @@
 
 ---
 
-## I. THE EDUCATIONAL MODEL
+## I. THE EDUCATIONAL MODEL (PROVING THE PHYSICS)
 
-This directory serves as the definitive engineering and architectural encyclopedia for the PointSav ecosystem. It bridges the gap between raw code and operational execution:
+This directory serves as the definitive engineering and architectural encyclopedia for the PointSav ecosystem. It bridges the gap between raw code and operational execution. 
+
+We use this Knowledge Graph to document the exact physics behind the **Totebox Archive**. It proves to auditors and stakeholders precisely how we achieve "Zero System Admin" deployment and **Freely Transferable Record Keeping** without relying on proprietary hyperscaler black-boxes.
 
 * **The Engineering Blueprint (The How):** Provided by **PointSav Digital Systems™** (The System Vendor).
 * **The Operational Proof (The Why):** Demonstrated by **Woodfine Management Corp.** (The Customer).
@@ -36,25 +42,25 @@ Below is the active ledger of documented topologies, architectural decisions, an
 ### 📡 Track 1: Active Topologies & Services
 | Topic Document | Conceptual Focus | Status |
 | :--- | :--- | :--- |
-| `TOPIC-06-Sovereign-Telemetry.md` | Sovereign Telemetry (Zero-Cookie Architecture) | 🟢 Active |
-| `TOPIC-Message-Courier.md` | Headless Execution Engine (Adapter Pattern) | 🟢 Active |
-| `TOPIC-Service-People.md` | Sovereign Personnel Ledger (Files over Databases) | 🟢 Active |
+| `TOPIC-06-Sovereign-Telemetry.md` | Sovereign Telemetry (Zero-Cookie Architecture). | 🟢 Active |
+| `TOPIC-Message-Courier.md` | Headless Execution Engine (Adapter Pattern). | 🟢 Active |
+| `TOPIC-Service-People.md` | Sovereign Personnel Ledger (Files over Databases). The foundational logic enabling the Bootable Disk Image. | 🟢 Active |
 
 ### 📐 Track 2: Architecture Decision Records (ADRs)
 | Topic Document | Structural Mandate | Status |
 | :--- | :--- | :--- |
-| `SYS-ADR-06.yaml` | Immutable Ledgers vs. Self-Healing Intelligence | 🟢 Verified |
-| `SYS-ADR-07.yaml` | Bifurcated Ingestion (Deterministic vs. Probabilistic) | 🟢 Verified |
-| `SYS-ADR-08.yaml` | Systemd Quarantine & Process Supervision Debt | 🟢 Verified |
+| `SYS-ADR-06.yaml` | Immutable Ledgers (`service-fs`) vs. Self-Healing Intelligence. The math behind WORM compliance. | 🟢 Verified |
+| `SYS-ADR-07.yaml` | Bifurcated Ingestion (Deterministic vs. Probabilistic). | 🟢 Verified |
+| `SYS-ADR-08.yaml` | Systemd Quarantine & Process Supervision Debt. | 🟢 Verified |
 
 ### 🚧 Track 3: Architectural Scaffolds (Incubation)
 | Conceptual Target | System Function | Status |
 | :--- | :--- | :--- |
-| The Sovereign Data Archive | Replacing cloud databases with verifiable flat-files | 🟡 Engineering |
-| Cryptographic Ledgers | SHA-256 metadata locking for flat files | 🟡 Engineering |
-| Capability-Based Security | Microkernel abstractions and one-way network flows | 🟡 Engineering |
-| Sovereign AI Routing | Local linguistic air-locks (SLMs) for data sanitization | 🟡 Engineering |
-| Sovereign Replacement | Eradicating foreign third-party technical debt | 🟡 Engineering |
+| The Sovereign Data Archive | Replacing cloud databases with verifiable flat-files. | 🟡 Engineering |
+| Cryptographic Ledgers | Machine-Based Authorization (MBA) and SHA-256 metadata locking. | 🟡 Engineering |
+| Cold Storage Entanglement | Securely locking external physical drives to specific Totebox archives. | 🟡 Engineering |
+| Sovereign AI Routing | Local linguistic air-locks (SLMs) for data sanitization. | 🟡 Engineering |
+| Sovereign Replacement | Eradicating foreign third-party technical debt. | 🟡 Engineering |
 
 ---
 
